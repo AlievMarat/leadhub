@@ -253,7 +253,10 @@ body {
 .statistics {
   background-color: #f9fafb;
   padding: 4rem 0;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 266px;
+  justify-content: center;
 }
 
 .statistics-title {
@@ -538,6 +541,7 @@ body {
 
 .footer-link {
   margin-right: 15px;
+  padding-top: 154px;
   text-decoration: none;
   color: #333;
   font-weight: bold;
